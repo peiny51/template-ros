@@ -2,7 +2,7 @@
 
   <group ns="$(arg veh)">  
 
-    <node pkg="my_package" type="encoder.py" name="my_odometry_node" output="screen"/>
+    <node pkg="my_package" type="test.py" name="my_odometry_node" output="screen"/>
 
   </group>
 
